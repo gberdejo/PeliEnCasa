@@ -71,7 +71,7 @@ class PeliculaDetalle extends StatelessWidget {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(20.0),
                     child: FadeInImage(
-                        height: 150,
+                        height: 150.0,
                         placeholder: AssetImage("assets/img/no-image.jpg"),
                         image: NetworkImage(pelicula.getPosterImf())),
                   ),
